@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    color: white; /* Texto blanco */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: white; /* Texto blanco */
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.contenedor {
+    text-align: right;
+    height: auto;
+}
+
+.imagen {
+    max-width: 10%;  /* La imagen no será más ancha que su contenedor */
+    height: auto;     /* La altura se ajustará automáticamente para mantener la proporción */
+    display: inline-block;
+    vertical-align: middle;
+}
